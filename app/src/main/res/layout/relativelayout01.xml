@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp">
+
+    <EditText
+        android:id="@+id/txtReName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:inputType="text"
+        android:text="Reminder Name" />
+
+    <EditText
+        android:id="@+id/txtFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtReName"
+        android:inputType="text"
+        android:text="First Name" />
+
+    <EditText
+        android:id="@+id/txtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtFirstName"
+        android:inputType="text"
+        android:text="Last Name" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLastName"
+        android:layout_alignParentEnd="true"
+        android:text="DONE"
+        android:id="@+id/btnDone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/btnDone"
+        android:layout_below="@id/txtLastName"
+        android:text="SAVE INFO"
+        android:id="@+id/btnSaveInfo"/>
+
+</RelativeLayout>

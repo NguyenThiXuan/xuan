@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvContent"
+        android:text="Hãy nhập email bạn đã đăng kí  với Banxehoi.com. Chúng tôi sẽ gửi mail lấy lại mật khẩu tới hòm thư của bạn. Vui lòng kiểm tra cả hòm thư Spam."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/tvNhapEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nhập địa chỉ Email của bạn"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:background="@drawable/sprkhungnhap"
+        android:paddingLeft="30dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btnGetPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lấy lại mật khẩu"
+        android:background="@drawable/sprbutton"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

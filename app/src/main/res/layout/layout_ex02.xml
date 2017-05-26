@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="9"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/img01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/toyota"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tvToyota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="TOYOTA"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/tvSotin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16 423 tin rao"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/relayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/img02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:src="@drawable/mercedes"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tvmMerc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="MERCEDES"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/tvSotin02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19 457 tin rao"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/img03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="3"
+            android:src="@drawable/mazda"
+            />
+
+        <TextView
+            android:id="@+id/tvMazda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="MAZDA"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/tvSotin03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14 568 tin rao"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

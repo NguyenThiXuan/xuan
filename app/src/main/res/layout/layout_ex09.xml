@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin cơ bản"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Nhập số cửa"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:inputType="text"
+        android:background="@drawable/sprkhungnhap02"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Nhập số chỗ ngồi"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:inputType="text"
+        android:background="@drawable/sprkhungnhap02"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Hộp số:"
+        android:textSize="15sp"
+        android:paddingLeft="10sp"
+        android:background="@drawable/sprkhungnhap02"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Dẫn động:"
+        android:textSize="15sp"
+        android:paddingLeft="10sp"
+        android:background="@drawable/sprkhungnhap02"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Nhiên liệu:"
+        android:textSize="15sp"
+        android:paddingLeft="10sp"
+        android:background="@drawable/sprkhungnhap02"/>
+    <TextView
+        android:text="Mức tiêu thụ:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:hint="Nhập mức tiêu thụ"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:background="@drawable/sprkhungnhap02"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đô thị"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:hint="Nhập mức tiêu thụ"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:background="@drawable/sprkhungnhap02"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đường trường"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+    <TextView
+        android:text="Thông số kỹ thuật:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Nhập kích thước dài x rộng x cao(mm):"
+        android:textSize="15sp"
+        android:paddingLeft="10sp"
+        android:inputType="number"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/sprkhungnhap02"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Nhập chiều dài cơ sở (mm)"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sprkhungnhap02"/>
+
+</LinearLayout>

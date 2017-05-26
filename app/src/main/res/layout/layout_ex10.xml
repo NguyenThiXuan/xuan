@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Tìm theo từ khóa "
+        android:textColor="#1f4ece"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="5sp"
+        android:background="@drawable/sprkhungnhap02"
+        android:hint="Bạn tìm gì? Toyota,Camry...." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Hoặc tìm kiếm với "
+        android:textColor="#1f4ece"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/sprkhungnhap02"
+        android:paddingLeft="10dp"
+        android:text="Hãng xe" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/sprkhungnhap02"
+        android:paddingLeft="10dp"
+        android:text="Loại xe" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Khoảng giá: "
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Tất cả: "
+            android:textSize="15sp"
+            android:textColor="#039405"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Năm sản xuất: "
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Tất cả: "
+            android:textSize="15sp"
+            android:textColor="#039405"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/sprkhungnhap02"
+        android:layout_margin="10dp"
+        android:text="Tỉnh/ Thành phố:"
+        android:paddingLeft="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTinhtrang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Tình trạng: "
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"/>
+        <RadioButton
+            android:id="@+id/rdoMoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvTinhtrang"
+            android:layout_centerVertical="true"
+            android:text="Mới"
+            android:textSize="15sp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rdoMoi"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="70dp"
+            android:text="Cũ"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kiểu dáng"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"/>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a"
+            android:background="@drawable/sprkhungnhap"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b"
+            android:background="@drawable/sprkhungnhap"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c"
+            android:background="@drawable/sprkhungnhap"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/d"
+            android:background="@drawable/sprkhungnhap"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/e"
+            android:background="@drawable/sprkhungnhap"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/f"
+            android:background="@drawable/sprkhungnhap"/>
+    </LinearLayout>
+
+</LinearLayout>

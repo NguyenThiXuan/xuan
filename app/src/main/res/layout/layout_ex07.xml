@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hình ảnh"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <ImageButton
+        android:id="@+id/imgbutton01"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/a"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tải ảnh lên"
+        android:layout_gravity="center"
+        android:textColor="#0573a1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/sprborder">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Che biển số:"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/rdoYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Có"
+            android:layout_marginLeft="20dp"/>
+        <RadioButton
+            android:id="@+id/rdoNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Không"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="Video:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtVideo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="Nhập link video của bạn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="5dp"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:background="@drawable/sprkhungnhap02"/>
+        <TextView
+            android:text="Thông tin mô tả:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtHang"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Hãng xe*:"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:background="@drawable/sprkhungnhap02"/>
+        <EditText
+            android:id="@+id/edtLoai"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Loại xe*:"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:background="@drawable/sprkhungnhap02"/>
+        <EditText
+            android:id="@+id/edtNamsx"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Năm sản xuất*:"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:background="@drawable/sprkhungnhap02"/>
+        <EditText
+            android:id="@+id/edtPhienBan"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="Phiên bản:"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:background="@drawable/sprkhungnhap02"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Xuất xứ:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/black"/>
+        <RadioButton
+            android:id="@+id/rdoXuatxu01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trong nước"
+            android:layout_marginLeft="20dp"/>
+        <RadioButton
+            android:id="@+id/rdoXuatxu02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập khẩu"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Tình trạng:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/black"/>
+        <RadioButton
+            android:id="@+id/rdoTinhTrang01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mới"
+            android:layout_marginLeft="20dp"/>
+        <RadioButton
+            android:id="@+id/rdoTinhTrang02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cũ"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edt_maungoaithat"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Màu ngoại thất:"
+        android:paddingLeft="15dp"
+        android:textSize="15sp"
+        android:inputType="text"
+        android:background="@drawable/sprkhungnhap02"/>
+
+
+</LinearLayout>

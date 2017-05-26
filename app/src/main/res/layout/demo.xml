@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông Số Kỹ Thuật"
+        android:layout_margin="15dp"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/sprborder02">
+        <TextView
+            android:id="@+id/tvSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dài x Rộng x Cao (mm)"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:textStyle="bold"
+            android:text="4580x1770x1750"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvSize"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="52dp"
+            android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/sprborder">
+        <TextView
+            android:id="@+id/tvKlg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trọng lượn không tải (kg)"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:text="1550"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvKlg"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="38dp"
+            android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/sprborder02">
+        <TextView
+            android:id="@+id/tvDc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Động cơ"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:text="Xăng VVT-i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvDc"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="145dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/sprborder">
+        <TextView
+            android:id="@+id/tvDungtich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dung tích động cơ"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:text="2000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvDungtich"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="85dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/sprborder02">
+        <TextView
+            android:id="@+id/tvDungtich02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dung tích nhiên liệu"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:text="Xăng VVT-i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvDungtich02"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="77sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/sprborder">
+        <TextView
+            android:id="@+id/tvPhanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phanh"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:text="Trước đĩa, sau tang trống"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvPhanh"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="157sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/sprborder02">
+        <TextView
+            android:id="@+id/tvGiamxoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bộ giảm sóc"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:text="Hệ thống treo trước độc lập, sau phụ thuộc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvGiamxoc"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="120sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/sprborder">
+        <TextView
+            android:id="@+id/tvLopxe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lốp xe"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:text="205/65R15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvLopxe"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="155sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/sprborder02">
+        <TextView
+            android:id="@+id/tvVanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vành mâm xe"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:text="Đúc 15 inches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvVanh"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="115sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn01"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="Xe cùng loại"
+            android:background="@drawable/sprbutton"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:id="@+id/btn02"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="Xe cùng loại"
+            android:background="@drawable/sprbutton"
+            android:layout_toRightOf="@id/btn01"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông tin người bán"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toyota Hùng Vương"
+        android:textColor="#0872a3"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"/>
+
+</LinearLayout>

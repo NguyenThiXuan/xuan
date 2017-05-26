@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <RelativeLayout
+        android:id="@+id/relayout1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#2eb700">
+
+        <ImageView
+            android:id="@+id/imgAvatar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/spravatar"
+            android:src="@drawable/a" />
+
+        <TextView
+            android:id="@+id/tvTitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/imgAvatar1"
+            android:text="Tác giả: Phạm Thị Thu Trang"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tvContent1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitle1"
+            android:layout_toRightOf="@+id/imgAvatar1"
+            android:text="Người đã có nhiều bài thơ tình rất hay...."
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:paddingLeft="8dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relayout2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relayout1"
+        android:background="#ed4503">
+
+        <ImageView
+            android:id="@+id/imgAvatar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/spravatar"
+            android:src="@drawable/b" />
+
+        <TextView
+            android:id="@+id/tvTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/imgAvatar2"
+            android:text="Tác giả: Trần Thị Thanh Hằng"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tvContent2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitle2"
+            android:layout_toRightOf="@+id/imgAvatar2"
+            android:text="Đạo diễn có nhiều bộ phim ăn khách...."
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:paddingLeft="8dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relayout3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/relayout2"
+        android:background="#0b7bea">
+
+        <ImageView
+            android:id="@+id/imgAvatar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/spravatar"
+            android:src="@drawable/c" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/imgAvatar3"
+            android:text="Tác giả: Nguyễn Thị Mộng Mơ"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitle"
+            android:layout_toRightOf="@+id/imgAvatar3"
+            android:text="Tác giả của bộ tiểu thuyết ...."
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:paddingLeft="8dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relayout4"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/relayout3"
+        android:background="#ae123c">
+
+        <ImageView
+            android:id="@+id/imgAvatar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/spravatar"
+            android:src="@drawable/d" />
+
+        <TextView
+            android:id="@+id/tvTitle4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/imgAvatar4"
+            android:text="Tác giả: Dương Thị Thu Phương"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/tvContent4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitle4"
+            android:layout_toRightOf="@+id/imgAvatar4"
+            android:text="Người đã có nhiều bài thơ tình rất hay...."
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:paddingLeft="8dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

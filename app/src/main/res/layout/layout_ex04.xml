@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imic"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/editUserName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/sprborder"
+        android:hint="UserName"
+        android:paddingLeft="10sp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/sprborder"
+        android:hint="Password"
+        android:paddingLeft="10sp"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sprbutton"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:id="@+id/relayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgFb"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/fb"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/tvFb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facebook"
+            android:layout_toRightOf="@id/imgFb"
+            android:paddingLeft="8dp"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:id="@+id/imgGg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gg"
+            android:layout_marginLeft="20dp"
+            android:layout_toLeftOf="@id/tvGg"
+            android:paddingRight="8dp"/>
+        <TextView
+            android:id="@+id/tvGg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google +"
+            android:paddingRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password ?"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn chưa có tài khoản? Đăng kí ngay"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

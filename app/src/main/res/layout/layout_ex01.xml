@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imglogo"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/mazda" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout01">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Mazda 6 2.0L 2017, đủ màu, giá tốt và ưu đãi hấp dẫn nhất Miền Bắc. Đặt hàng liên hệ ngay 0988777666"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relayout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout02">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:text="980 triệu VNĐ"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/sprborder"
+            android:paddingRight="15dp"
+            android:paddingTop="20dp"
+            android:text="Chi phí lăn bánh"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relayout04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout03"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/tvMatin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã tin"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="176dp"
+            android:text="12345"
+            android:textColor="#0176ec"
+            android:textSize="17dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relayout05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout04"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/tvDiadiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Địa điểm"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_toRightOf="@+id/tvDiadiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hà Nội"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:paddingLeft="81dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relayout06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout05"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/tvTinhtrang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tình trạng xe"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvTinhtrang"
+            android:text="Mới"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:paddingLeft="51dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relayout07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout06"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/tvXuatXu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xuất xứ"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvXuatXu"
+            android:text="Trong nước"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:paddingLeft="90dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relayout08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout07"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/tvKieuDang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kiểu dáng"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvKieuDang"
+            android:text="Thời trang"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:paddingLeft="75dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relayout09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout08"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/tvNamsx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Năm sản xuất"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvNamsx"
+            android:text="2017"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:paddingLeft="48dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relayout010"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout09"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/tvNgaydang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày đăng"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvNgaydang"
+            android:text="Trong nước"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:paddingLeft="70dp"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

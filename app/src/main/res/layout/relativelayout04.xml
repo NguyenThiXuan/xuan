@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fdfdfd">
+
+        <ImageView
+            android:id="@+id/imglogo"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:src="@drawable/twitter" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="10dp"
+            android:text="Email"
+            android:textSize="20sp"
+            android:id="@+id/tvEmail"/>
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEmail"
+            android:paddingLeft="10dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout1"
+        android:paddingTop="20dp">
+        <TextView
+            android:text="Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/tvPass"/>
+        <EditText
+            android:id="@+id/editPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPass"
+            android:paddingLeft="10dp"/>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relayout2"
+        android:paddingTop="20dp"
+        android:background="@drawable/sprbuttonlogin"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:gravity="center|top"
+        android:textSize="20sp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlogin"
+        android:text="New to Twitter? Register here"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:paddingLeft="40dp"
+        android:paddingTop="20dp"/>
+
+</RelativeLayout>
